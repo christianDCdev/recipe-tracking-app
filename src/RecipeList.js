@@ -18,8 +18,8 @@ function RecipeList({ recipes, deleteRecipe }) {
           <td>
             <img src={photo} />
           </td>
-      <td className="content_td"> <p>{ingredients} </p></td>
-      <td className="content_td"> <p>{preparation} </p></td>
+          <td className="content_td"> <p>{ingredients} </p></td>
+          <td className="content_td"> <p>{preparation} </p></td>
           <td>
             <RecipeView deleteRecipe = {() => deleteRecipe(index)} />
           </td>
